@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'JLRoutes+EasyRouting' target in the 'JLRoutes+EasyRouting' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
