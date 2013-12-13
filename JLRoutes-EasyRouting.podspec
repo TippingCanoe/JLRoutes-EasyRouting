@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "JLRoutes-EasyRouting"
-  s.version      = "0.9"
+  s.version      = "1.0"
   s.summary      = "An Extension to JLRoutes for better InApp Handling"
   # s.description  = <<-DESC
   #                   An optional longer description of JLRoutes-EasyRouting/0.9/JLRoutes-EasyRouting
