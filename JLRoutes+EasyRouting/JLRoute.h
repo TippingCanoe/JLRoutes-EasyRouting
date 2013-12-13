@@ -14,5 +14,5 @@
 @end
 
 @interface JLRoute : NSObject
-+ (void)registerRoute:(NSObject<JLRoute> *)route forURL:(NSString *)url;
++ (void)registerRoute:(Class<JLRoute>)route forURL:(NSString *)url;
 @end
