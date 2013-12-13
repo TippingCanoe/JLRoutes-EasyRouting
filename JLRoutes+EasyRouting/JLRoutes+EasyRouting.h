@@ -8,6 +8,12 @@
 
 #import <JLRoutes/JLRoutes.h>
 
+@protocol JLRoute <NSObject>
++ (void)routeWith:(NSDictionary *)options;
+@end
+
 @interface JLRoutes (EasyRouting)
 + (BOOL)routeToPath:(NSArray *)path andParams:(NSDictionary *)params;
++ (void)registerRoute:(Class<JLRoute>)route forURL:(NSString *)url;
+
 @end

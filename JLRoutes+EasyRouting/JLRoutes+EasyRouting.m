@@ -24,7 +24,6 @@
 
 @implementation JLRoutes (EasyRouting)
 
-
 + (BOOL)routeToPath:(NSArray *)path andParams:(NSDictionary *)params{
     
 	BOOL didRoute = NO;
@@ -53,5 +52,12 @@
 	}
 	
 	return didRoute;
+}
+
++ (void)registerRoute:(Class<JLRoute>)route forURL:(NSString *)url{
+    [JLRoutes addRoute:url handler:^BOOL(NSDictionary *parameters) {
+        [route routeWith:parameters];
+        return YES;
+    }];
 }
 @end

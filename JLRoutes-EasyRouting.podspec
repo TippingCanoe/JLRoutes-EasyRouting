@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "git@github.com:TippingCanoe/JLRoutes-EasyRouting.git", :tag => "0.1.1" }
+  s.source       = { :git => "git@github.com:TippingCanoe/JLRoutes-EasyRouting.git", :tag => "0.1.2" }
 
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
