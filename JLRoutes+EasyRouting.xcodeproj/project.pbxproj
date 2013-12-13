@@ -18,6 +18,7 @@
 		8426820817554F6300FCAEB7 /* UIApplication+JLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8426820417554F6300FCAEB7 /* UIApplication+JLRoute.m */; };
 		8426820917554F6300FCAEB7 /* JLRoutes+EasyRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8426820617554F6300FCAEB7 /* JLRoutes+EasyRouting.m */; };
 		8426820A17554F6300FCAEB7 /* JLRoutes+EasyRouting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8426820617554F6300FCAEB7 /* JLRoutes+EasyRouting.m */; };
+		8435D3C5185BCD8A004A95A6 /* JLRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435D3C4185BCD8A004A95A6 /* JLRoute.m */; };
 		EA8E31989A7846C9BDC4A032 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 349FE4F2B0E943CB8E19D0D2 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,9 @@
 		8426820417554F6300FCAEB7 /* UIApplication+JLRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JLRoute.m"; sourceTree = "<group>"; };
 		8426820517554F6300FCAEB7 /* JLRoutes+EasyRouting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JLRoutes+EasyRouting.h"; sourceTree = "<group>"; };
 		8426820617554F6300FCAEB7 /* JLRoutes+EasyRouting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JLRoutes+EasyRouting.m"; sourceTree = "<group>"; };
+		8435D3C3185BCD8A004A95A6 /* JLRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLRoute.h; sourceTree = "<group>"; };
+		8435D3C4185BCD8A004A95A6 /* JLRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLRoute.m; sourceTree = "<group>"; };
+		8435D3C6185BCF84004A95A6 /* JLRoutes-EasyRouting.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "JLRoutes-EasyRouting.podspec"; sourceTree = "<group>"; };
 		8EED145D8922457CB8104291 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -89,6 +93,7 @@
 		842681CF17554F4C00FCAEB7 = {
 			isa = PBXGroup;
 			children = (
+				8435D3C6185BCF84004A95A6 /* JLRoutes-EasyRouting.podspec */,
 				842681DD17554F4C00FCAEB7 /* JLRoutes+EasyRouting */,
 				842681F217554F4C00FCAEB7 /* JLRoutes+EasyRoutingTests */,
 				842681DA17554F4C00FCAEB7 /* Frameworks */,
@@ -120,6 +125,8 @@
 		842681DD17554F4C00FCAEB7 /* JLRoutes+EasyRouting */ = {
 			isa = PBXGroup;
 			children = (
+				8435D3C3185BCD8A004A95A6 /* JLRoute.h */,
+				8435D3C4185BCD8A004A95A6 /* JLRoute.m */,
 				8426820317554F6300FCAEB7 /* UIApplication+JLRoute.h */,
 				8426820417554F6300FCAEB7 /* UIApplication+JLRoute.m */,
 				8426820517554F6300FCAEB7 /* JLRoutes+EasyRouting.h */,
@@ -286,6 +293,7 @@
 			files = (
 				8426820717554F6300FCAEB7 /* UIApplication+JLRoute.m in Sources */,
 				8426820917554F6300FCAEB7 /* JLRoutes+EasyRouting.m in Sources */,
+				8435D3C5185BCD8A004A95A6 /* JLRoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
