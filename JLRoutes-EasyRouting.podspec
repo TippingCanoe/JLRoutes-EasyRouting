@@ -99,5 +99,5 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  s.dependency 'JLRoutes', '~> 1.2'
+  s.dependency 'JLRoutes', '<= 1.5'
 end
