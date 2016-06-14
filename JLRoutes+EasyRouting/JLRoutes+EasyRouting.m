@@ -56,8 +56,7 @@
 
 + (void)registerRoute:(Class<JLRoute>)route forURL:(NSString *)url{
     [JLRoutes addRoute:url handler:^BOOL(NSDictionary *parameters) {
-        [route routeWith:parameters];
-        return YES;
+        return [route routeWithResult:parameters];
     }];
 }
 @end

@@ -9,7 +9,7 @@
 #import <JLRoutes/JLRoutes.h>
 
 @protocol JLRoute <NSObject>
-+ (void)routeWith:(NSDictionary *)options;
++ (BOOL)routeWithResult:(NSDictionary *)options;
 @end
 
 @interface JLRoutes (EasyRouting)
